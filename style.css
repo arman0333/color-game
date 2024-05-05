@@ -1,0 +1,30 @@
+*{
+    background-color:grey;
+}
+#options-container>div{
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border: 2px solid grey;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+#options-container>div:hover{
+    scale: 1.2;
+    transition: 0.4s all;
+}
+
+/* #options-container{
+    display: grid;
+    grid-template-columns:300px 0fr;
+} */
+#options-container {
+    display: grid;
+    grid-template-columns: repeat(10, 200px); /* Two columns, each with a width of 300px */
+}
+
+#score {
+    font-size: 25px;
+}
